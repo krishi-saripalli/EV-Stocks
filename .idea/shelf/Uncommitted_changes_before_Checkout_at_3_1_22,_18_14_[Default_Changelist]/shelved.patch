@@ -1,0 +1,140 @@
+Index: data_deliverable/data/README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/data_deliverable/data/README.md b/data_deliverable/data/README.md
+deleted file mode 100644
+--- a/data_deliverable/data/README.md	
++++ /dev/null	
+@@ -1,4 +0,0 @@
+-# Data Spec
+-This is where you will be describing your data spec comprehensively. Please refer to the handout for a couple of examples of good data specs.
+-
+-You will also need to provide a sample of your data in this directory. Please delete the example `sample.db` and replace it with your own data sample. ***Your sample does not necessarily have to be in the `.db` format; feel free to use `.json`, `.csv`, or any other data format that you are most comfortable with***.
+Index: data_deliverable/reports/tech_report/README.md
+===================================================================
+diff --git a/data_deliverable/reports/tech_report/README.md b/data_deliverable/reports/tech_report/README.md
+deleted file mode 100644
+--- a/data_deliverable/reports/tech_report/README.md	
++++ /dev/null	
+@@ -1,38 +0,0 @@
+-# Tech Report
+-This is where you can type out your tech report.
+-
+-### Where is the data from?
+-
+-
+-### How did you collect your data?
+-
+-
+-### Is the source reputable?
+-
+-### How did you generate the sample? Is it comparably small or large? Is it representative or is it likely to exhibit some kind of sampling bias?
+-
+-
+-### Are there any other considerations you took into account when collecting your data? This is open-ended based on your data; feel free to leave this blank. (Example: If it's user data, is it public/are they consenting to have their data used? Is the data potentially skewed in any direction?)
+-
+-
+-### How clean is the data? Does this data contain what you need in order to complete the project you proposed to do? (Each team will have to go about answering this question differently, but use the following questions as a guide. Graphs and tables are highly encouraged if they allow you to answer these questions more succinctly.)
+-
+-
+-### How many data points are there total? How many are there in each group you care about (e.g. if you are dividing your data into positive/negative examples, are they split evenly)? Do you think this is enough data to perform your analysis later on?
+-
+-
+-### Are there missing values? Do these occur in fields that are important for your project's goals?
+-
+-
+-### Are there duplicates? Do these occur in fields that are important for your project's goals?
+-
+-
+-### How is the data distributed? Is it uniform or skewed? Are there outliers? What are the min/max values? (focus on the fields that are most relevant to your project goals)
+-
+-### Are there any data type issues (e.g. words in fields that were supposed to be numeric)? Where are these coming from? (E.g. a bug in your scraper? User input?) How will you fix them?
+-
+-
+-### Do you need to throw any data away? What data? Why? Any reason this might affect the analyses you are able to run or the conclusions you are able to draw?
+-
+-
+-### Summarize any challenges or observations you have made since collecting your data. Then, discuss your next steps and how your data collection has impacted the type of analysis you will perform. (approximately 3-5 sentences)
+Index: data_deliverable/reports/social_impact_report/README.md
+===================================================================
+diff --git a/data_deliverable/reports/social_impact_report/README.md b/data_deliverable/reports/social_impact_report/README.md
+deleted file mode 100644
+--- a/data_deliverable/reports/social_impact_report/README.md	
++++ /dev/null	
+@@ -1,33 +0,0 @@
+-# Socio-historical Context and Impact Report
+-
+-## Socio-historical Context
+-
+-### Who are the major stakeholders?
+-
+-
+-### Societal factors affecting our data and prediction
+-
+-#### What should we do?
+-
+-
+-### Relevant work
+-
+-
+-## Ethical Considerations
+-
+-### Biases in data collection
+-
+-
+-
+-### Biases in data interpretation
+-
+-
+-
+-### Privacy issues and solutions
+-
+-
+-### Misuses of our project results
+-
+-
+-## Works Cited
+-
+Index: data_deliverable/README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Data Deliverable\nThis is the data deliverable's master directory! Please use the following shortcut links to access the different components of this deliverable.\n\n### Data Spec ###\n[Data spec](data/)\n\n### Reports ###\n- [Tech Report](reports/tech_report/)\n- [Socio-historical Context and Impact Report](reports/social_impact_report)
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/data_deliverable/README.md b/data_deliverable/README.md
+--- a/data_deliverable/README.md	
++++ b/data_deliverable/README.md	
+@@ -5,5 +5,5 @@
+ [Data spec](data/)
+ 
+ ### Reports ###
+-- [Tech Report](reports/tech_report/)
+-- [Socio-historical Context and Impact Report](reports/social_impact_report)
+\ No newline at end of file
++- [Tech Report](data/tech_report/)
++- [Socio-historical Context and Impact Report](../final_deliverable/social_impact_report)
+\ No newline at end of file
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Final Project\nThis is the final project's master repo! Please use the following shortcut links to access the different components of the project.\n\n## Data Deliverable ##\n\n- #### Data Spec ####\n  - [Data spec](data_deliverable/data/)\n\n- #### Reports ####\n  - [Tech Report](data_deliverable/reports/tech_report/)\n  - [Socio-historical Context and Impact Report](data_deliverable/reports/social_impact_report)\n\n\n## Analysis Deliverable ##\n\n- #### Reports ####\n  - [Tech Report](analysis_deliverable/tech_report/)\n\n- #### Visualizations ####\n  - [Visualizations](analysis_deliverable/visualizations)\n\n\n## Final Deliverable ##\n\n- ### Poster ###\n[Poster](final_deliverable/poster/poster.pdf)\n\n- ### Code ###\n  - [Code](final_deliverable/code/)<br/>\n  - ([Capstone App Demo]()\n\n- ### Abstract ###\n  - [Abstract]()\n\n- ### Final Presentation ###\n  - [recording]()\n  - [slides]()\n\n- ### Visualizations ###\n  - [Visualizations](final_deliverable/visualizations)
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+--- a/README.md	
++++ b/README.md	
+@@ -7,8 +7,8 @@
+   - [Data spec](data_deliverable/data/)
+ 
+ - #### Reports ####
+-  - [Tech Report](data_deliverable/reports/tech_report/)
+-  - [Socio-historical Context and Impact Report](data_deliverable/reports/social_impact_report)
++  - [Tech Report](data_deliverable/data/tech_report/)
++  - [Socio-historical Context and Impact Report](final_deliverable/social_impact_report)
+ 
+ 
+ ## Analysis Deliverable ##

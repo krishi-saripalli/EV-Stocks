@@ -1,0 +1,9 @@
+DATA SPEC for GOLD PRICES:
+
+Data Types: The gold table consists of DATE type for the date column and FLOAT type for the Price
+
+Date: All values are unique and there is no default value. Date ranges from 3-20-20 to 3-22-2022. The date column will be used to join onto other columns in the project for
+side by side analysis of the two in a specified time period. Date should be used as the unique identifier since it is the only unique column.
+
+Price: Some values in price may be repeated because of the equal pricing on certain days. The range of values for price is between 1494.4 and 2067.19 dollars/ounce.
+Price data will be used to compare trends with other commodities and the stock prices of EV companies in later analysis

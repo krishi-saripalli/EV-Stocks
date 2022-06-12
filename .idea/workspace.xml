@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aae4d043-e68b-4b58-8323-5e7b191db3e4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/data_deliverable/data/lithiumPrices/lithium.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_deliverable/data/lithiumPrices/lithium.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_deliverable/data/project_data.db" beforeDir="false" afterPath="$PROJECT_DIR$/data_deliverable/data/project_data.db" afterDir="false" />
+=======
+>>>>>>> c8db2b90dde4aae0a815f687bb704797e15c2fcc
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="25qO6go6eiioObAkERdAHayPonC" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data_deliverable/data/historicalStock" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data_deliverable/data/historicalStock" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\delve\Documents\Ray\Brown University\Spring 2022\CS1951A\The-Truth\data_deliverable\data" />
+      <recent name="C:\Users\delve\Documents\Ray\Brown University\Spring 2022\CS1951A\The-Truth\data_deliverable\data\goldPrices" />
+      <recent name="C:\Users\delve\Documents\Ray\Brown University\Spring 2022\CS1951A\The-Truth\data_deliverable\data\lithiumPrices" />
+      <recent name="C:\Users\delve\Documents\Ray\Brown University\Spring 2022\CS1951A\The-Truth\data_deliverable\data\historicalOil" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aae4d043-e68b-4b58-8323-5e7b191db3e4" name="Changes" comment="" />
+      <created>1646250979283</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646250979283</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
